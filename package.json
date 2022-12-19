@@ -13,6 +13,10 @@
   "jest": {
     "preset": "jest-expo"
   },
+  "resolutions": {
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9"
+  },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@react-navigation/bottom-tabs": "^6.0.5",
@@ -30,27 +34,31 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
+    "react-native-paper": "^5.0.2",
     "react-native-safe-area-context": "4.4.1",
     "react-native-screens": "~3.18.0",
     "react-native-web": "~0.18.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@types/react": "~18.0.24",
-    "@types/react-native": "~0.70.6",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@tsconfig/react-native": "^2.0.3",
+    "@types/jest": "^29.2.4",
+    "@types/react": "^18.0.26",
+    "@types/react-native": "^0.70.8",
+    "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint": "^7.16.0",
     "eslint-config-standard-with-typescript": "^24.0.0",
-    "@react-native-community/eslint-config": "^2.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.11",
     "jest": "^26.6.3",
     "jest-expo": "~47.0.1",
-    "react-test-renderer": "18.1.0",
     "prettier": "^2.2.1",
-    "typescript": "*"
+    "react-test-renderer": "18.1.0",
+    "typescript": "^4.9.4"
   },
   "private": true
 }
