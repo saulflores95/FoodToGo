@@ -39,7 +39,6 @@ const Address = styled.Text`
 
 const Raiting = styled.View`
   flex-direction: row;
-  align-items: center;
   padding-top: ${(props) => props.theme.space[2]};
   padding-bottom: ${(props) => props.theme.space[2]};
 `;

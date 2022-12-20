@@ -2,7 +2,6 @@ import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import RestaurantScreen from "./src/features/restaurants/screens/restaurants.screen";
 import { theme } from "./src/infrastructure/theme";
 import { ThemeProvider } from "styled-components/native";
-import React from "react";
 import {
   useFonts as useOswald,
   Oswald_400Regular,
@@ -11,7 +10,7 @@ import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 
 import "styled-components";
 
-export const App: React.FC = () => {
+export default function App() {
   const [oswaldLoaded] = useOswald({
     Oswald_400Regular,
   });
@@ -32,4 +31,4 @@ export const App: React.FC = () => {
       </ThemeProvider>
     </>
   );
-};
+}
