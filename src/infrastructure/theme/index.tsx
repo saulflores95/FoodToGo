@@ -11,6 +11,7 @@ const theme = {
   fonts,
   fontSizes,
   fontWeights,
+  borderRadius: "6px",
 };
 
 export type ThemeType = typeof theme;
