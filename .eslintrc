@@ -1,9 +1,10 @@
 {
-  "extends": "@react-native-community",
+  "extends": [
+    "@react-native-community",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "rules": {
     "quotes": [2, "double", { "avoidEscape": true }],
-    "react/react-in-jsx-scope": "off",
-    "react/jsx-uses-react": "off",
     "react/jsx-filename-extension": [
       1,
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
